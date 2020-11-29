@@ -10,7 +10,11 @@ class HeroRepository(
     private val ts: String
 ) {
 
-    suspend fun getHero(): List<Hero> {
+    suspend fun getHeroes(): List<Hero> {
         return remoteDataSource.getHeroes(apiKey, hash, ts)
+    }
+
+    suspend fun getHeroById(id: Int): Hero {
+        return remoteDataSource.getHeroById( apiKey, hash, ts, id)
     }
 }
