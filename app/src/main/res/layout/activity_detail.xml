@@ -11,8 +11,8 @@
         android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.DarkOverlay"
-        android:fitsSystemWindows="true">
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.DarkOverlay">
 
         <com.google.android.material.appbar.CollapsingToolbarLayout
             android:layout_width="match_parent"
@@ -33,7 +33,7 @@
                 android:id="@+id/heroDetailToolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
-                tools:title="Movie name" />
+                tools:title="Hero name" />
 
         </com.google.android.material.appbar.CollapsingToolbarLayout>
 
@@ -63,9 +63,9 @@
                 android:id="@+id/heroDetailInfo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="16dp"
                 android:background="@color/lightBackground"
                 android:lineSpacingMultiplier="1.5"
+                android:padding="16dp"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 tools:text="Lorem ipsum" />
 
