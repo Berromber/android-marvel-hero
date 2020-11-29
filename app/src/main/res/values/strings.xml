@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MarvelHero</string>
+    <string name="api_key">ADD YOUR MARVEL PUBLIC ID HERE</string>
+    <string name="api_secret_key">ADD YOUR MARVEL PRIVATE ID HERE</string>
 </resources>
